@@ -14,7 +14,7 @@ for(var i = 1; i <= prop.length; i++){
     https.get(domain, function(res) {
         if (res.statusCode != 200){
             console.log(domain + " StatusCode: " + res.statusCode);
-            https.get(telebot1 + "domain: " + domain +  " -----  Status code: " + res.statusCode);
+            https.get(telebot + "domain: " + domain +  " -----  Status code: " + res.statusCode);
         }
         else{
             console.log(domain + " StatusCode: " + res.statusCode);
